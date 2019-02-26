@@ -1,0 +1,46 @@
+git init - sets up all the tools to begin tracking changes made to the project
+
+git add filename - add file to the staging area so git can start tracking the file
+
+git status - check status of what git tracks
+
+git diff filename - check for differences between the working directory and the staging area
+
+git commit - permanently stores changes from the staging area inside the repository
+
+optional:
+git commit -m "Message you want to add"
+
+git log - View earlier commited changes, stored chronologically
+
+git show HEAD - outputs everything the git log command displays for the HEAD commit, plus all the file changes that were committed
+
+git reset HEAD filename - resets the file in the staging area to be the same as the HEAD commit
+
+git reset commit_SHA - rewind to the part before you made a mistake by using the first 7 characters of the SHA of a previous commit
+
+image
+
+git branch - list out all branches
+
+git branch branch_name - create a copy of the project
+
+git checkout branch_name - switch branches
+
+git merge branch_name - include changes from branch_name into the master branch
+
+git branch -d branch_name - delete the spsific branch from your GIT project
+
+git clone remote_location clone_name - make a local copy of the repository
+
+git remote -v - Show list of your project's remote 
+
+git fetch - See if changes has been made to the remote and bring the changes down to your local copy
+
+git oush origin branch_name - pushes a local branch to the origin remote
+
+
+
+
+
+
